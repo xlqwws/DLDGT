@@ -1,2 +1,2 @@
 # DLDGT
-DLDGT: A Dynamic Memory-Enabled Transformer with Generative Co-Training for Persistent Unknown Attack Detection
+Dynamic Lifelong Defense: Continual Detection of Unknown Attacks via Adaptation Generative and Dynamic Memory Transformers
