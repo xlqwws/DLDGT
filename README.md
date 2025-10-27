@@ -42,7 +42,7 @@ Experiment.py contains all experiments.
 
 ###
 Please note!!! All datasets are for experimental and research purposes only. No other uses are permitted. 
-The relevant dataset is available at: www.kaggle.com/datasets/liuquanxu/dataset.
+The relevant dataset is available at: www.kaggle.com/datasets/liuquanxu/dataset or https://blog.csdn.net/weixin_52655780?type=download.
 
 If you have any questions, please contact me at: xuliuquan8@gmail.com
 
