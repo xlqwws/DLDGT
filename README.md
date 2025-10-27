@@ -32,15 +32,17 @@ model = DGTTransformer(pre_processing=pre_processing,
 
 # Load the specific dataset
 dataset_name, dataset_path, dataset_specification, eval_percent, eval_method = datasets[0]
-ft.load_dataset(dataset_name, dataset_path, dataset_specification, evaluation_dataset_sampling=eval_method, evaluation_percent=eval_percent)
+model.load_dataset(dataset_name, dataset_path, dataset_specification, evaluation_dataset_sampling=eval_method, evaluation_percent=eval_percent)
 
 # Build the transformer model
 m = model.build_model()
 m.summary()
 
-# Compile the model
-m.compile(optimizer="adam", loss='binary_crossentropy', metrics=['binary_accuracy'])
-
 Experiment.py contains all experiments.
 
+###
+Please note!!! All datasets are for experimental and research purposes only. No other uses are permitted. 
+The relevant dataset is available at: www.kaggle.com/datasets/liuquanxu/dataset.
+
+If you have any questions, please contact me at: xuliuquan8@gmail.com
 
