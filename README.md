@@ -3,7 +3,7 @@ Dynamic Lifelong Defense: Continual Detection of Unknown Attacks via Adaptation 
 
 Our presents dynamic lifelong defense (DLDGT), a novel framework architected for the continuous detection of unknown attacks. DLDGT integrates two key innovations: an adaptive generation module (DL-VAE) and a dynamic transformer with memory (DGT), which together enable lifelong learning  and defense capabilities. Specifically, DL-VAE is a novel variational autoencoder with dynamic perception capabilities that can adaptively model the non-stationary distribution of network flows. DGT is an innovative detection architecture that employs developed dynamic attention mechanism and continuous memory module. This enables it to continuously absorb knowledge about novel attacks without catastrophic forgetting, thereby maintaining high vigilance against evolving threats. 
 
-Environment Requirements: TensorFlow >=2.1, Keras >=2.6.0, Python=3.9.
+Environment Requirements: TensorFlow >=2.1, Keras >=2.6.0, Python >=3.9.
 
 First, set up the dataset specification file, dataset_specification.py.
 
